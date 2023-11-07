@@ -1,0 +1,109 @@
+body {
+  --bg-italy-green: #198754;
+  --bg-gray: #383e4e
+  --bs-body-bg: white;
+  background-color: white !important;
+  --bs-navbar-color: var(--bg-italy-green);
+  --dough-color: #fcdcac;
+}
+
+@font-face {
+  font-family: 'Cuanky'; /* Name you'll use to reference the font */
+  src: url('/cuanky-font/CuankyDemoRegular-x3eyR.otf') format('truetype'); /* Path relative to the public directory */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-cuanky {
+  font-family: Cuanky, sans-serif !important;
+  letter-spacing: .08rem;
+}
+
+.navbar-brand {
+  --bs-navbar-brand-font-size: 40px;
+  
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.card-bg-dough {
+  --bs-card-bg: var(--dough-color);
+  --bs-heading-color: black;
+  --bs-body-color: black;
+}
+
+.crust-border {
+  border-style: solid;
+  --bs-border-radius: 16px;
+  border: 12px solid #f0b068;
+}
+
+.card-bg-crust {
+  --bs-card-bg: #edc282 !important;
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+
+.border-on {
+  --bs-card-border-color: rgba(0,0,0,0);
+}
+
+.bg-gray {
+  --bs-card-bg: var(--bg-gray);
+}
+
+
+.bg-italy-green {
+  background-color: var(--bg-italy-green) !important;
+  border-color: var(--bg-italy-green) !important;
+}
+
+.text-italy-green {
+  color: var(--bg-italy-green);
+}
+
+
+
+.bg-light-ig {
+  background-color: rgba(var(--bg-italy-green), 0.5) !important;
+  border-color: rgba(var(--bg-italy-green), 0.5) !important;
+}
+
+.bg-olive-black {
+  background-color: #3B3C36 !important;
+}
+
+.bg-italy-red {
+  background-color: #CE1126 !important;
+  border-color: #CE1126 !important;
+}
+
+.bg-italy-pink {
+  background-color: #ff7080;
+  border-color: #ff7080;
+}
+
+.border-italy-green {
+  border-color: var(--bg-italy-green);
+  border-width: 4px;
+  border-style: solid;
+}
+
+.text-tomato {
+  color: #d80000 !important;
+}
+
+h4.text-tomato {
+  font-weight: bold;
+}
+
+.btn-green-pressed {
+  background-color: var(--bg-italy-green) !important;
+  --bs-btn-active-border-color: var(--bg-italy-green) !important;
+}
+
+
